@@ -10,21 +10,18 @@
     <link href="../_css/login.css" type="text/css" rel="stylesheet">
 </head>
 <body class="text-center">
-  <form class="form-signin">
+  <form action="login_G.php" method="POST" class="form-signin">
         <img class="mb-4" src="../_images/logogerente.png" alt="Tela de Login" width="100px" height="100px">
         <h1 class="h3 mb-3 font-weight-normal">Realize o login</h1>
-        <label for="inputEmail" class="sr-only">Endereço de E-mail</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Digite seu E-mail" >
+        <label class="sr-only">Endereço de E-mail</label>
+        <input name="usuario" class="form-control" placeholder="Digite seu E-mail" >
 
-        <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Digite sua senha" ><br>
+        <label class="sr-only">Senha</label>
+        <input name="senha" type="password" id="inputPassword" class="form-control" placeholder="Digite sua senha" ><br>
+
 
         <button class="btn btn-lg btn-primary" type="submit">Entrar</button>
-        
-
         <p class="mt-5 mb-3 text-muted">&copy;2022</p>
-
-
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

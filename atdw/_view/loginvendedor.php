@@ -10,14 +10,14 @@
     <link href="../_css/login.css" type="text/css" rel="stylesheet">
 </head>
 <body class="text-center">
-  <form class="form-signin">
+  <form action="login_V.php" method="POST" class="form-signin">
         <img class="mb-4" src="../_images/logovendedor.png" alt="Tela de Login" width="100px" height="100px">
         <h1 class="h3 mb-3 font-weight-normal">Realize o login</h1>
         <label for="inputEmail" class="sr-only">Endereço de E-mail</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Digite seu E-mail" >
+        <input name="usuario" id="inputEmail" class="form-control" placeholder="Digite seu E-mail" >
 
         <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Digite sua senha" ><br>
+        <input name="senha" type="password" id="inputPassword" class="form-control" placeholder="Digite sua senha" ><br>
 
         <button class="btn btn-lg btn-primary" type="submit">Entrar</button>
         
