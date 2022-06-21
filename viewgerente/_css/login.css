@@ -1,0 +1,33 @@
+html,body{
+    height: 100%;
+    background-image: url("../_images/estoque.jpg");
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-signin{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    background: #fff;
+    border-radius: 50px;
+    border-style: double;
+}
+
+.btn-center{
+    justify-content: center;
+}
+
+.btn-one{
+    margin: 50px;
+    padding-left: 50px;
+}
+

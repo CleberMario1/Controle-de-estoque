@@ -1,0 +1,10 @@
+.grafico{
+    margin-top: 20px;
+    background: #fff;
+
+}
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+  }
