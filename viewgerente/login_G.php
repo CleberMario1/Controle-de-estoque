@@ -11,7 +11,7 @@ $result = mysqli_query($conexao, $query);
 $row = mysqli_num_rows($result);
 if($row == 1){
     $_SESSION['usuario'] = $usuario;
-    header('Location: painel_gerente.php');
+    header('Location: principal.php');
     exit();
 }else {
     header('Location: logingerente.php');

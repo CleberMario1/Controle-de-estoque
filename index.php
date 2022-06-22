@@ -15,10 +15,10 @@
 <body class="text-center btn-center">
     <div>
         <div class="btn-one">
-            <a href="_view/logingerente.php"><input value="Entrar como gerente" class="btn btn-lg btn-primary center" type="button"></input></a>
+            <a href="viewgerente/logingerente.php"><input value="Entrar como gerente" class="btn btn-lg btn-primary center" type="button"></input></a>
         </div>
         <div class="btn-one">
-            <a href="_view/loginvendedor.php"><input value="Entrar como vendedor" class="btn btn-lg btn-primary center" type="button"></input></a>
+            <a href="viewvendedor/loginvendedor.php"><input value="Entrar como vendedor" class="btn btn-lg btn-primary center" type="button"></input></a>
         </div>
 
     </div>
