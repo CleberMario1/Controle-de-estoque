@@ -10,7 +10,9 @@
     <link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<button type="button" class="btn btn-primary">Adicionar</button>
+<button type="button" class="btn btn-primary">Cadastrar</button>
+<button type="button" class="btn btn-primary">Editar</button>
+<button type="button" class="btn btn-primary">Excluir</button>
 <table id="gerente" class="display" style="width:100%">
         <thead>
             <tr>

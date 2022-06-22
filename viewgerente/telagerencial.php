@@ -10,6 +10,7 @@
     <link href="_css/grafico.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+<button type="button" class="btn btn-primary">Excluir</button>
     <h1>morreu</h1>
 
     <div class="container grafico">
