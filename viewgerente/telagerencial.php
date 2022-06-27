@@ -8,10 +8,10 @@
     <link rel="icon" href="../_images/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="_css/grafico.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="../_images/logo.png">
 </head>
 <body>
-<button type="button" class="btn btn-primary">Excluir</button>
-    <h1>morreu</h1>
+    <h1 style="text-align:center;">Gráfico produtos mais vendidos</h1>
 
     <div class="container grafico">
           <div class="grafico">

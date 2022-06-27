@@ -81,24 +81,24 @@ series.columns.template.adapters.add("stroke", function(stroke, target) {
   return chart.get("colors").getIndex(series.columns.indexOf(target));
 });
 
-
 // Set data
-var data = [{
-  country: "Disciplina 1",
-  value: 8.2
-}, {
-  country: "Disciplina 2",
-  value: 4.1
-}, {
-  country: "Disciplina 3",
-  value: 9.6
-}, {
-  country: "Disciplina 4",
-  value: 7.2
-}, {
-  country: "Disciplina 5",
-  value: 5
-}];
+<?php 
+include ('db/conexao.php');
+$sql = "SELECT qnt_comprada,nome FROM produtos ORDER by qnt_comprada DESC limit 10;";
+$result = $conexao->query($sql);
+$fetch = $result->fetch_all(MYSQLI_ASSOC);
+
+?>
+
+var data = [
+  <?php
+       foreach ($fetch as $value) :?>
+{
+  country: "<?php echo $value['nome']; ?>",
+  value: <?php echo $value['qnt_comprada']; ?>,
+},
+<?php endforeach;?>
+];
 
 xAxis.data.setAll(data);
 series.data.setAll(data);
